@@ -1,7 +1,7 @@
 <div align="center"><img src="https://archives.bulbagarden.net/media/upload/4/44/Pok%C3%A9mon_Gallery_Encounter_with_Shining.png" alt="Yo-kai Watch!" align="center"></div>
 
-<h1 align="center">House of Thrones App</h1>
-<h2 align="center">A fan-built Game of Thrones webapp to view your favorite pokemon's shiny versions.</h3>
+<h1 align="center">Houses of Thrones App</h1>
+<h2 align="center">A fan-built Game of Thrones webapp to view your favorite House's sigil information</h3>
 
 
 
@@ -22,9 +22,9 @@
 - As I progress with JS, I can go back to this webapp and add more OOP-based coding to its algorithms.
 ### :star: Try it Out
 
-- Page is live at: [Pokemon Sprite Viewer](https://pokemonsprites.netlify.app/)
+- Page is live at: [Houses of Thrones App](https://housesofthrones.netlify.app/)
 
 
 ### :slightly_smiling_face: Thank you!
 
-Please check out the rest of my [Github](https://github.com/Ultracire), the code repo for this project will be [here](https://github.com/Ultracire/PokemonSpriteApp).
+Please check out the rest of my [Github](https://github.com/eric-phan), and my Game of THrones API repo [here](https://github.com/eric-phan/gameofthones-api).
