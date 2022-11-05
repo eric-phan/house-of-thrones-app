@@ -1,4 +1,4 @@
-<div align="center"><img src="https://archives.bulbagarden.net/media/upload/4/44/Pok%C3%A9mon_Gallery_Encounter_with_Shining.png" alt="Yo-kai Watch!" align="center"></div>
+<div align="center"><img src="https://mir-s3-cdn-cf.behance.net/project_modules/disp/2b8ebe17627505.562bc6813c996.png" alt="Yo-kai Watch!" align="center"></div>
 
 <h1 align="center">Houses of Thrones App</h1>
 <h2 align="center">A fan-built Game of Thrones webapp to view your favorite House's sigil information</h3>
