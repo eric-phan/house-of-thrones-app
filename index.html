@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <title>Houses of Thrones - Game of Thrones Info Data</title>
+    <link rel="stylesheet" href="/client-side-code/css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Yusei+Magic&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <h1>Get GoT House Sigil Info</h1>
+    <div class="wrapper">
+      <div class="directions">
+        <p>Please enter a House name in the input box.</p>
+      </div>
+
+      <div class="results">
+        <img id="emblemPic" class="imgThumbEmblem" src="#" alt="" />
+        <div class="modalEmblem">
+          <span class="closeEmblem">x</span>
+          <img class="modalImageEmblem" id="fullEmblem" src="" alt="" />
+          <div id="emblemCaption"></div>
+        </div>
+        <h2></h2>
+        <p id="bio"></p>
+        <img id="locationPic" class="imgThumbLocation" src="#" alt="" />
+        <!-- change the caption -->
+        <div class="modalLocation">
+          <span class="closeLocation">x</span>
+          <img class="modalImageLocation" id="fullLocation" src="" alt="" />
+          <div id="emblemCaption"></div>
+        </div>
+        <h3 id="mainLocation"></h3>
+      </div>
+
+      <input type="text" name="" placeholder="Enter House name" />
+      <button type="button" name="button">Click Me</button>
+
+      <div class="push"></div>
+    </div>
+
+    <div class="moreInfo">
+      <p>
+        A fullstack webapp by
+        <a href="https://ericphan.netlify.app/">Eric.</a>
+      </p>
+      <p>
+        I am a fan of the series and do not claim ownership of any of the images
+        or information. House bio information is courtesy of the
+        <a href="https://awoiaf.westeros.org"> A Wiki of Ice and Fire</a>
+        community
+      </p>
+    </div>
+
+    <script src="js/main2.js" type="text/javascript"></script>
+  </body>
+</html>

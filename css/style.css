@@ -1,0 +1,166 @@
+html {
+  font-size: 16px;
+  font-family: "Yusei Magic", sans-serif;
+  text-align: center;
+  color: #2b2100;
+  /* background-color: #fffefa; */
+}
+body {
+  margin: 0px;
+}
+.wrapper {
+  min-height: 100%;
+  margin-bottom: -50px;
+}
+.directions {
+  width: 80%;
+  margin: 0 auto;
+}
+.results {
+  display: none;
+}
+.push,
+.moreInfo {
+  height: 50px;
+  text-align: left;
+  bottom: 2rem;
+  left: 5%;
+}
+
+.moreInfo {
+  padding-bottom: 3rem;
+}
+
+.imgThumbEmblem,
+.imgThumbLocation {
+  cursor: pointer;
+  transition: 0.3s;
+  width: 250px;
+  height: auto;
+}
+.imgThumbLocation {
+  width: 450px;
+}
+.modalEmblem,
+.modalLocation {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  padding-top: 100px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.9);
+}
+.modalImageEmblem,
+.modalImageLocation {
+  margin: auto;
+  display: block;
+  width: 50%;
+  height: auto;
+  max-width: 700px;
+}
+
+.modalImageLocation {
+  width: 70%;
+  height: auto;
+  max-width: 700px;
+}
+#emblemCaption,
+#locationCaption {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+  text-align: center;
+  color: #ccc;
+  padding: 10px 0;
+  height: 150px;
+}
+.closeEmblem,
+.closeLocation {
+  position: absolute;
+  top: 15px;
+  right: 35px;
+  color: #f1f1f1;
+  font-size: 40px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+.closeEmblem:hover,
+.closeEmblem:focus,
+.closeLocation:hover,
+.closeLocation:focus {
+  color: rgb(255, 0, 0);
+  cursor: pointer;
+}
+@media only screen and (max-width: 700px) {
+  .modalImage {
+    width: 100%;
+  }
+}
+.moreInfo p {
+  font-size: 0.9rem;
+  padding: 0 2rem;
+}
+h1 {
+  padding-top: 2rem;
+  font-size: 5rem;
+  margin-bottom: 1rem;
+  letter-spacing: 6px;
+}
+h2 {
+  font-size: 3rem;
+  padding: 1rem;
+  margin: 0 auto;
+}
+
+h3 {
+  display: block;
+  font-size: 2rem;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+}
+#bio {
+  font-style: italic;
+  margin: 0.75rem auto;
+  padding: 1rem 0 2rem 0;
+}
+
+p {
+  font-size: 1.5rem;
+}
+a {
+  color: black;
+}
+
+button {
+  background-color: grey;
+  font-family: "Yusei Magic", sans-serif;
+  margin: 0 auto;
+  border: none;
+  border-radius: 0.5rem;
+  letter-spacing: 3.5px;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 0.8rem;
+}
+input[type="text"] {
+  border: 3px solid #555;
+  font-size: 0.9rem;
+  padding-left: 9px;
+  height: 2.5rem;
+  width: 250px;
+  margin: 0 auto;
+  border-radius: 0.5rem;
+  margin-bottom: 1.5rem;
+}
