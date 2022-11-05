@@ -1,6 +1,6 @@
 <div align="center"><img src="https://mir-s3-cdn-cf.behance.net/project_modules/disp/2b8ebe17627505.562bc6813c996.png" alt="GoT banners" align="center"></div>
 
-<a href="https://www.behance.net/gallery/17627505/GAME-OF-THRONES-FLAT-SIGILS">Art by: Ram de Guzman <span></span></a>
+ <span> Art by: <a href="https://www.behance.net/gallery/17627505/GAME-OF-THRONES-FLAT-SIGILS">Ram de Guzman </span>
 
 <h1 align="center">Houses of Thrones App</h1>
 <h2 align="center">A fan-built Game of Thrones webapp to view your favorite House's sigil information</h3>
