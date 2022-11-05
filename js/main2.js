@@ -86,35 +86,21 @@ async function colors() {
     );
     const data = await response.json();
     const backgroundColor = document.body.style.background;
-    console.log(data.location);
+    // console.log(data.location);
     // console.log(typeof data.location);
     // You KNOW the value that finalLocation is a STRING
 
     // add switch statements
 
-    const finalLocation = data.location.toLocaleLowerCase();
-    
-    // if (finalLocation === "crownlands") {
-    //   document.body.style.background = "#ffc266";
-    // } else if (finalLocation === "north") {
-    //   document.body.style.background = "#e6e6e6";
-    // } else if (finalLocation === "stormlands") {
-    //   document.body.style.background = "#ffffe6";
-    // } else if (finalLocation === "westerlands") {
-    //   document.body.style.background = "#ffb3b3";
-    // } else if (finalLocation === "vale") {
-    //   document.body.style.background = "#ffffff";
-    // } else if (finalLocation === "riverlands") {
-    //   document.body.style.background = "#e6ffff";
-    // } else if (finalLocation === "iron islands") {
-    //   document.body.style.background = "#e6ffff";
-    // } else if (finalLocation === "reach") {
-    //   document.body.style.background = "#e6ffe6";
-    // } else if (finalLocation === "dorne") {
-    //   document.body.style.background = "#ffe6cc";
-    // } else {
-    //   document.body.style.background = "#ffffff";
-    // }
+    let finalLocation = data.location;
+
+    if (typeof finalLocation === "string") {
+      finalLocation = finalLocation.toLocaleLowerCase();
+      console.log("hi");
+    }
+
+    // tolocalelowercase does not work on nonstrings, thats why it is not working
+    // have to use let variable on finalLocation
 
     switch (finalLocation) {
       case "crownlands":
@@ -148,6 +134,7 @@ async function colors() {
         document.body.style.background = "#ffffff";
         break;
     }
+    console.log(finalLocation);
   } catch (error) {
     console.log(error);
   }
