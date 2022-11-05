@@ -1,7 +1,7 @@
 <div align="center"><img src="https://archives.bulbagarden.net/media/upload/4/44/Pok%C3%A9mon_Gallery_Encounter_with_Shining.png" alt="Yo-kai Watch!" align="center"></div>
 
-<h1 align="center"># house-of-thrones-app<h1>
-<h2 align="center">A fan-built pokemon webapp to view your favorite pokemon's shiny versions.</h3>
+<h1 align="center">House of Thrones App</h1>
+<h2 align="center">A fan-built Game of Thrones webapp to view your favorite pokemon's shiny versions.</h3>
 
 
 
