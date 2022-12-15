@@ -18,7 +18,7 @@ async function apiRequest() {
   const houseName = document.querySelector("input").value;
   try {
     const response = await fetch(
-      `https://got-house-emblems.herokuapp.com/api/${houseName}`
+      `https://got-house-emblems.up.railway.app/api/${houseName}`
     );
 
     const data = await response.json();
