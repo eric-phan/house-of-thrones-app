@@ -11,7 +11,7 @@
 #### Some Notes:
 - This webapp was made using an [API](https://github.com/eric-phan/gameofthones-api) I made.
 - I want to maintain and add more of the lesser houses to the API when I can.
-- I highly recommend watching the inital season of GoT or even thre prequel, House of the Dragon! Have fun!
+- I highly recommend watching the inital season of GoT or even the prequel, House of the Dragon! Have fun!
 
 
 #### Tech Stuff:
